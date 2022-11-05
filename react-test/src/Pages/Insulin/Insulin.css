@@ -1,0 +1,39 @@
+h2,
+p {
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: -1px;
+  text-transform: none;
+}
+
+p {
+  font-weight: 200;
+}
+
+.insulinSignButton {
+  border-radius: 4px;
+  background-color: #fffaaf;
+  border: 4px solid #fffaaf;
+  color: #424242;
+  font-family: "Andale Mono";
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px 40px;
+  word-wrap: break-word;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  transition: all 400ms ease-in-out;
+}
+
+.insulinSignButton:hover {
+  background-color: #ffffff;
+  border: 4px solid #fffaaf;
+  color: #fffaaf;
+  cursor: pointer;
+}
+
+.largeButton {
+  padding: 0px 70px;
+}
