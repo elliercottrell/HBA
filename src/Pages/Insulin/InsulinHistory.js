@@ -34,9 +34,11 @@ function InsulinHistory() {
   };
 
   //calling the fetchuserinfo function
-  useEffect(() => {
+  useEffect((fetchUserInfo) => {
     fetchUserInfo();
-  });
+  }, []);
+
+  fetchUserInfo();
 
   return (
     <div className="App">
@@ -57,8 +59,8 @@ function InsulinHistory() {
             ) : (
               <div>
                 <h2>No data found</h2>
-                <Link to="/insulin" className="link">
-                  <button className="btntwo">Go to insulin calculator</button>
+                <Link to="/insulin-dose" className="link">
+                  <button className="btntwo">Update insulin dose</button>
                 </Link>
               </div>
             )}

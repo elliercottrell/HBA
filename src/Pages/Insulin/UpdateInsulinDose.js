@@ -45,8 +45,8 @@ function UpdateInsulinDose() {
     });
     //feedback to user
     alert("Latest insulin dose updated!");
-    //redirects to insulin page once submitted
-    navigate("/insulin");
+    //redirects to home once submitted
+    navigate("/");
   };
 
   return (
@@ -85,7 +85,7 @@ function UpdateInsulinDose() {
         </button>
       </form>
       <div>
-        <Link to="/insulin" className="link">
+        <Link to="/" className="link">
           <button className="backButton">Back</button>
         </Link>
       </div>

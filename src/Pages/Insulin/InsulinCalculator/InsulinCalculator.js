@@ -1,9 +1,7 @@
-import logo from "../../Layout/Logo/HBA_logo.svg";
+import logo from "../../../Layout/Logo/HBA_logo.svg";
 import "./InsCal.css";
 import { Link } from "react-router-dom";
-import FooterLinks from "../../Layout/Footer/Footer";
-// import { useAuthState } from "react-firebase-hooks/auth";
-// import { auth } from "../Authentication/Firebase/firebase-config";
+import FooterLinks from "../../../Layout/Footer/Footer";
 import React, { useState } from "react";
 
 function App() {
@@ -41,11 +39,11 @@ function App() {
     imgSrc = null;
   } else {
     if (Carbohydrates < 50) {
-      imgSrc = require("../InsulinCalculator/images/youngMan.jpg");
+      imgSrc = require("./images/youngMan.jpg");
     } else if (Carbohydrates >= 50 && Carbohydrates <= 100) {
-      imgSrc = require("../InsulinCalculator/images/fruit.jpg");
+      imgSrc = require("./images/fruit.jpg");
     } else {
-      imgSrc = require("../InsulinCalculator/images/bread.jpg");
+      imgSrc = require("./images/bread.jpg");
     }
   }
 
