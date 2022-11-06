@@ -56,15 +56,7 @@ function TopBar() {
               Menu
               className="titles"
             >
-              {" "}
               Home
-            </Link>
-            <Link
-              to="insulin"
-              onClick={() => setExpanded(false)}
-              className="titles"
-            >
-              Update Insulin
             </Link>
             <Link
               to="insulin-calculator"
@@ -80,6 +72,23 @@ function TopBar() {
             >
               Food Calculator
             </Link>
+            {!user ? (
+              <Link
+                to="insulin"
+                onClick={() => setExpanded(false)}
+                className="titles"
+              >
+                Update insulin
+              </Link>
+            ) : (
+              <Link
+                to="insulin-dose"
+                onClick={() => setExpanded(false)}
+                className="titles"
+              >
+                Update Insulin
+              </Link>
+            )}
             <Link
               to="reading"
               onClick={() => setExpanded(false)}
