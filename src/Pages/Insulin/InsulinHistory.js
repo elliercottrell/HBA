@@ -36,7 +36,7 @@ function InsulinHistory() {
   //calling the fetchuserinfo function
   useEffect(() => {
     fetchUserInfo();
-  }, []);
+  });
 
   return (
     <div className="App">
