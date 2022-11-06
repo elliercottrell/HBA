@@ -49,9 +49,9 @@ function App() {
     }
   }
 
-  function refreshPage() {
-    window.location.reload();
-  }
+  // function refreshPage() {
+  //   window.location.reload();
+  // }
 
   let reload = () => {
     window.location.reload();

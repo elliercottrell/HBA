@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./Pages/HomePage/App";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Insulin from "./Pages/Insulin/Insulin";
 import FoodCalculator from "./Pages/FoodCalculator";
 import Reading from "./Pages/Reccomended_Reading/Reading";
