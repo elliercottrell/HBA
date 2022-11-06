@@ -1,6 +1,5 @@
 import logo from "../Layout/Logo/HBA_logo.svg";
 import "./HomePage/App.css";
-import { Link } from "react-router-dom";
 import FooterLinks from "../Layout/Footer/Footer";
 
 function ContactUs() {
@@ -11,16 +10,17 @@ function ContactUs() {
       </header>
       <h1>Contact Us</h1>
       <p>
-        This is small project and the start of our coding journey. If you would like to give feedback 
-        please contact us through Github.
+        This is small project and the start of our coding journey. If you would
+        like to give feedback please contact us through Github.
       </p>
       <p>
-        Alteranatively if you would like more information on how to get involved in you own project or 
-        about the opportunties available to learn to make you own project 
-        visit: <a href="https://codefirstgirls.com">CodeFirstGirls</a>.
+        Alteranatively if you would like more information on how to get involved
+        in you own project or about the opportunties available to learn to make
+        you own project visit:{" "}
+        <a href="https://codefirstgirls.com">CodeFirstGirls</a>.
       </p>
       <div className="App-footer">
-        <FooterLinks/>
+        <FooterLinks />
       </div>
     </div>
   );
