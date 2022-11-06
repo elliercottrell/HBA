@@ -7,6 +7,7 @@ import { auth } from "../Authentication/Firebase/firebase-config";
 
 function Insulin() {
   //checks if user is logged in
+  // eslint-disable-next-line
   const [user] = useAuthState(auth);
 
   return (
