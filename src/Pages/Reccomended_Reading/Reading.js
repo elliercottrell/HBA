@@ -13,7 +13,11 @@ function Reading() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div className="ReadingCarousel">
+        <h2>For more information, we recommend these sites.</h2>
         <ReadingCarousel></ReadingCarousel>
+      </div>
+      <div className="IframeTitle">
+        <h2>Need to know how to test your blood? Here's how:</h2>
       </div>
       <div
         className="ReactPlayer"
@@ -26,7 +30,6 @@ function Reading() {
         <ReactPlayer url="https://www.youtube.com/watch?v=NUskHl7APHE" />
       </div>
 
-      <p>Some reading links</p>
       <Link to="/" className="link">
         <button className="backButton">Back</button>
       </Link>
